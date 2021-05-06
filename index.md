@@ -1,35 +1,28 @@
 
----
-title: "Robo-Pitcher"
----
+#Robo-Pitcher
 
-I'm glad you are here. I plan to talk about ...
 
----
-Introduction
----
+##Introduction
 
-Objective:
+#####Objective:
 Our final project is to make a robotic arm in Simulation that can throw a ball into a hoop from a distance. 
 
----
-Relevant subjects:
----
+
+#####Relevant subjects:
 
 Inverse kinematics, Trajectory planning, Robotics Simulation Model
 
----
-What was Created/Implemented:
----
 
----
-ROS node Architecture:
----
+##What was Created/Implemented:
+
+
+
+#####ROS node Architecture:
 	Each of the two joints in the robot arm published data on their current angle and whatever commands they were trying to follow. The angle reports were given in radians.
-Simulation Model: Arm
+#####Simulation Model: Arm
 	Our Simulation Model was modeled off rrbot, a basic arm made from three rectangular poles which served as arm segments, and two joints connecting these segments.
 
-Catapult Model:
+#####Catapult Model:
 		We then added an open box to the end of the final arm segment which was used to hold the ball while the arm was swinging. 
 	Grasping Model:
 Control Algorithm:
